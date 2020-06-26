@@ -1,0 +1,30 @@
+{
+  "defaultSeverity": "warning",
+  "extends": ["tslint-eslint-rules"],
+  "rules": {
+    "jsEnable": false,
+    "indent": [true, "spaces", 2],
+    "semicolon": [true, "never"],
+    "arrow-parens": [false, "ban-single-arg-parens"],
+    "trailing-comma": [
+      true,
+      {
+        "singleline": "never"
+      }
+    ],
+    "interface-name": true,
+    "no-consecutive-blank-lines": false,
+    "object-literal-sort-keys": false,
+    "ordered-imports": false,
+    "quotemark": [true, "single"],
+    "no-namespace": false,
+    "no-console": false,
+    "no-debugger": false,
+    "max-line-length": [true, 160],
+    "max-classes-per-file": false,
+    "interface-over-type-literal": false
+  },
+  "linterOptions": {
+    "exclude": ["node_modules/**", "src/**/*.js", "**/*.js"]
+  }
+}
